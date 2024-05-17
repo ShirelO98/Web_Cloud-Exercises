@@ -9,6 +9,7 @@ main,
 footer,
 nav,
 section,
+header,
 div {
   display: block;
 }
@@ -39,7 +40,9 @@ div {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 6px;
-  margin: auto;
+  position: absolute;
+  margin-left: 93px;
+  margin-top: 6px;
 }
 
 #the-main-nav {
@@ -49,12 +52,12 @@ div {
 }
 
 nav a:hover {
-  color: #612999; /* Change the link color on hover */
-  font-weight: bolder; /* Make the link font bolder on hover */
+  color: #612999;
+  font-weight: bolder;
 }
 
 nav li {
-  display: inline-block;
+  display: inline;
   margin-right: 64px;
 }
 
@@ -68,10 +71,50 @@ nav a {
   text-decoration: none;
 }
 
-main > section > img {
-  width: 1200px;
-  height: 797px;
-  flex-shrink: 0;
+main {
+  margin-top: 32.07px;
+  overflow: hidden;
+}
+
+#the-main-img {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: relative;
+}
+
+#the-main-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#the-main-img h1 {
+  width: 448px;
+  color: #612999;
+  font-family: Nunito;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  background: none;
+}
+
+#the-main-img p {
+  width: 448px;
+  color: #000;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 163px;
+  left: 32px;
+  background: none;
 }
 
 #the-paragraph {
