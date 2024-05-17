@@ -30,6 +30,7 @@ div {
   margin-left: 26px;
   flex-shrink: 0;
   text-decoration: none;
+  position: relative; 
 }
 
 #logo span {
@@ -41,8 +42,8 @@ div {
   line-height: normal;
   letter-spacing: 6px;
   position: absolute;
-  margin-left: 93px;
-  margin-top: 6px;
+  left: 67px;
+  top: 5px;
 }
 
 #the-main-nav {
