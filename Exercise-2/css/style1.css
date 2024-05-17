@@ -30,7 +30,7 @@ div {
   margin-left: 26px;
   flex-shrink: 0;
   text-decoration: none;
-  position: relative; 
+  position: relative;
 }
 
 #logo span {
@@ -118,12 +118,12 @@ main {
   background: none;
 }
 
-#the-paragraph {
+#the-about-paragraphs {
   margin-top: 32px;
   margin-left: 32px;
 }
 
-#the-paragraph h2 {
+#the-about-paragraphs h2 {
   width: 136.443px;
   height: 40px;
   flex-shrink: 0;
@@ -132,10 +132,10 @@ main {
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px; /* 100% */
+  line-height: 40px;
 }
 
-#the-paragraph p {
+#the-about-paragraphs p {
   margin-top: 24px;
   width: 1136px;
   height: 85px;
@@ -146,10 +146,7 @@ main {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140.625%; /* 28.125px */
-}
-
-#wrapper {
+  line-height: 140.625%;
 }
 
 #wrapper h2 {
@@ -160,5 +157,62 @@ main {
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px; /* 100% */
+  line-height: 40px;
+}
+
+footer {
+  height: 287px;
+  width: 100%;
+  flex-shrink: 0;
+  background: #efecff;
+  position: relative;
+}
+
+.footer-content {
+  position: absolute;
+  background: none;
+}
+
+.footer-content * {
+  background: transparent;
+}
+
+.footer-content h4 {
+  color: #333;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; 
+  text-transform: uppercase;
+}
+
+.footer-content ul {
+  color: #333;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style-type: none;
+  padding: 0; 
+  margin-top: 16px;
+}
+
+.footer-content ul a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#the-right-footer{
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+#the-left-footer{
+  position: absolute;
+  top: 32px;
+  margin-left: 308px;
 }
