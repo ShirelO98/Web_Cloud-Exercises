@@ -149,7 +149,12 @@ main {
   line-height: 140.625%;
 }
 
-#wrapper h2 {
+#the-pupular-books {
+  height: 1374px;
+  display: block;
+}
+
+#the-pupular-books > h2 {
   margin-top: 39px;
   margin-left: 32px;
   color: #612999;
@@ -160,17 +165,124 @@ main {
   line-height: 40px;
 }
 
+.the-cards {
+  margin-left: 32px;
+  margin-top: 27px;
+}
+
+.the-cards .card {
+  border-radius: 38px;
+  background: #efecff;
+  box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
+  width: 376px;
+  height: 496px;
+  flex-shrink: 0;
+}
+
+.card img {
+  position: absolute;
+  border-radius: 38px;
+  z-index: 0;
+}
+
+.card > .elipse-heart {
+  position: absolute;
+  background: url("../images/Ellipse-heart.png");
+  width: 47px;
+  height: 47px;
+  flex-shrink: 0;
+  fill: #07060f;
+  margin-left: 290px;
+  margin-top: 40px;
+  z-index: 1;
+}
+
+.card > .heart {
+  position: absolute;
+  background: url("../images/heart.png");
+  width: 23px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-left: 302px;
+  margin-top: 54px;
+  z-index: 1;
+}
+
+.card > .elipse-basket {
+  position: absolute;
+  background: url("../images/Ellipse-basket.png");
+  width: 63px;
+  height: 63px;
+  flex-shrink: 0;
+  margin-left: 262px;
+  margin-top: 406px;
+}
+
+.card > .basket {
+  position: absolute;
+  background: url("../images/basket.png");
+  width: 31px;
+  height: 31px;
+  flex-shrink: 0;
+  margin-left: 278px;
+  margin-top: 420px;
+}
+
+.card > h3 {
+  position: absolute;
+  color: #000;
+  text-align: justify;
+  font-family: Abel;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: none;
+  margin-top: 297px;
+  margin-left: 32px;
+}
+
+.card > p {
+  position: absolute;
+  color: #333;
+  font-family: Abel;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 315px;
+  height: 96px;
+  flex-shrink: 0;
+  background: none;
+  margin-top: 347px;
+  margin-left: 32px;
+}
+
+.card > h4 {
+  position: absolute;
+  color: #612999;
+  text-align: justify;
+  font-family: Abel;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 415px;
+  margin-left: 32px;
+  background: none;
+}
+
 footer {
   height: 287px;
   width: 100%;
   flex-shrink: 0;
-  background: #efecff;
   position: relative;
 }
 
 .footer-content {
   position: absolute;
   background: none;
+  background: #efecff;
 }
 
 .footer-content * {
@@ -183,7 +295,7 @@ footer {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; 
+  line-height: 28px;
   text-transform: uppercase;
 }
 
@@ -195,8 +307,9 @@ footer {
   font-weight: 400;
   line-height: normal;
   list-style-type: none;
-  padding: 0; 
+  padding: 0;
   margin-top: 16px;
+  margin-bottom: 24px;
 }
 
 .footer-content ul a {
@@ -206,13 +319,43 @@ footer {
   margin-top: 5px;
 }
 
-#the-right-footer{
+#the-left-footer {
   margin-top: 32px;
   margin-left: 32px;
 }
 
-#the-left-footer{
+#the-right-footer {
   position: absolute;
   top: 32px;
   margin-left: 308px;
+}
+
+.logos-footer {
+  display: inline;
+  width: 24.618px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: #272d4e;
+}
+
+.logos-footer a {
+  margin-right: 24px;
+}
+
+.logos-footer a:last-child {
+  margin-right: 0;
+}
+
+.footer-content > div {
+  color: #333;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 198px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-top: 16px;
+  margin-left: 32px;
 }
