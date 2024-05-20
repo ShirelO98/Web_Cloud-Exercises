@@ -30,7 +30,7 @@ div {
   margin-left: 26px;
   flex-shrink: 0;
   text-decoration: none;
-  position: relative;
+  position: absolute;
 }
 
 #logo span {
@@ -48,18 +48,26 @@ div {
 
 #the-main-nav {
   margin-left: 419px;
-  margin-right: 120px;
+  margin-top: 48px;
+}
+
+#the-main-nav {
+  margin-left: 419px;
   margin-top: 48px;
 }
 
 nav a:hover {
-  color: #612999;
+  color: #7f5da0;
   font-weight: bolder;
 }
 
 nav li {
   display: inline;
   margin-right: 64px;
+}
+
+#home-bold > a {
+  font-weight: 700;
 }
 
 nav a {
@@ -150,7 +158,6 @@ main {
 }
 
 #the-pupular-books {
-  height: 1374px;
   display: block;
 }
 
@@ -168,6 +175,9 @@ main {
 .the-cards {
   margin-left: 32px;
   margin-top: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .the-cards .card {
@@ -177,6 +187,8 @@ main {
   width: 376px;
   height: 496px;
   flex-shrink: 0;
+  margin-right: 32px;
+  margin-bottom: 27px;
 }
 
 .card img {
@@ -277,6 +289,7 @@ footer {
   width: 100%;
   flex-shrink: 0;
   position: relative;
+  margin-top: 5px;
 }
 
 .footer-content {
