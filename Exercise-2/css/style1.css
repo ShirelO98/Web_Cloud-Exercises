@@ -3,7 +3,6 @@
   padding: 0;
   background: #fff;
 }
-
 header,
 main,
 footer,
@@ -13,7 +12,6 @@ header,
 div {
   display: block;
 }
-
 .nav-container {
   display: inline-block;
   justify-content: space-between;
@@ -21,7 +19,6 @@ div {
   width: 100%;
   height: 128px;
 }
-
 #logo {
   background: url("../images/logo.png");
   background-repeat: no-repeat;
@@ -34,7 +31,6 @@ div {
   text-decoration: none;
   position: absolute;
 }
-
 #logo span {
   color: #3e3f43;
   font-family: Nunito;
@@ -47,30 +43,24 @@ div {
   left: 67px;
   top: 5px;
 }
-
 nav
 {
   display: inline-block;
 }
-
 nav ul {
   margin-left: 419px;
   margin-top: 48px;
 }
-
 nav a:hover {
   color: #7f5da0;
 }
-
 nav li {
   display: inline;  
   margin-right: 64px;
 }
-
 #home-bold > a {
   font-weight: 700;
 }
-
 nav a {
   color: #612999;
   font-family: Nunito;
@@ -80,23 +70,19 @@ nav a {
   line-height: normal;
   text-decoration: none;
 }
-
 main {
   overflow: hidden;
 }
-
 #the-main-img {
   width: 100vw;
   display: block;
   position: relative;
 }
-
 #the-main-img img {
   width: 100%;
   height: 797px;
   object-fit: cover;
 }
-
 #the-main-img h1 {
   width: 448px;
   color: #612999;
@@ -110,7 +96,6 @@ main {
   left: 32px;
   background: none;
 }
-
 #the-main-img p {
   width: 448px;
   color: #000;
@@ -124,12 +109,10 @@ main {
   left: 32px;
   background: none;
 }
-
 #the-about-paragraphs {
   margin-top: 32px;
   margin-left: 32px;
 }
-
 #the-about-paragraphs h2 {
   width: 136.443px;
   height: 40px;
@@ -141,7 +124,6 @@ main {
   font-weight: 500;
   line-height: 40px;
 }
-
 #the-about-paragraphs p {
   margin-top: 24px;
   width: 1136px;
@@ -155,11 +137,9 @@ main {
   font-weight: 400;
   line-height: 140.625%;
 }
-
 #the-pupular-books {
   display: block;
 }
-
 #the-pupular-books > h2 {
   margin-top: 39px;
   margin-left: 32px;
@@ -170,7 +150,6 @@ main {
   font-weight: 500;
   line-height: 40px;
 }
-
 .the-cards {
   margin-left: 32px;
   margin-top: 27px;
@@ -178,7 +157,6 @@ main {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-
 .the-cards .card {
   border-radius: 38px;
   background: #efecff;
@@ -189,13 +167,11 @@ main {
   margin-right: 32px;
   margin-bottom: 27px;
 }
-
 .card img {
   position: absolute;
   border-radius: 38px;
   z-index: 0;
 }
-
 .card > .elipse-heart {
   position: absolute;
   background: url("../images/Ellipse-heart.png");
@@ -207,7 +183,6 @@ main {
   margin-top: 40px;
   z-index: 1;
 }
-
 .card > .heart {
   position: absolute;
   background: url("../images/heart.png");
@@ -218,7 +193,6 @@ main {
   margin-top: 54px;
   z-index: 1;
 }
-
 .card > .elipse-basket {
   position: absolute;
   background: url("../images/Ellipse-basket.png");
@@ -228,7 +202,6 @@ main {
   margin-left: 262px;
   margin-top: 406px;
 }
-
 .card > .basket {
   position: absolute;
   background: url("../images/basket.png");
@@ -238,7 +211,6 @@ main {
   margin-left: 278px;
   margin-top: 420px;
 }
-
 .card > h3 {
   position: absolute;
   color: #000;
@@ -252,7 +224,6 @@ main {
   margin-top: 297px;
   margin-left: 32px;
 }
-
 .card > p {
   position: absolute;
   color: #333;
@@ -268,7 +239,6 @@ main {
   margin-top: 347px;
   margin-left: 32px;
 }
-
 .card > h4 {
   position: absolute;
   color: #612999;
@@ -282,25 +252,21 @@ main {
   margin-left: 32px;
   background: none;
 }
-
 footer {
   height: 287px;
   width: 100%;
   flex-shrink: 0;
-  position: relative;
+  position: sticky;
   margin-top: 5px;
-}
-
-.footer-content {
-  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
   background: none;
   background: #efecff;
 }
-
 .footer-content * {
   background: transparent;
 }
-
 .footer-content h4 {
   color: #333;
   font-family: Nunito;
@@ -310,7 +276,6 @@ footer {
   line-height: 28px;
   text-transform: uppercase;
 }
-
 .footer-content ul {
   color: #333;
   font-family: Nunito;
@@ -323,25 +288,22 @@ footer {
   margin-top: 16px;
   margin-bottom: 24px;
 }
-
 .footer-content ul a {
   text-decoration: none;
   color: inherit;
   display: inline-block;
   margin-top: 5px;
 }
-
 #the-left-footer {
+  position: absolute;
   margin-top: 32px;
   margin-left: 32px;
 }
-
 #the-right-footer {
   position: absolute;
   top: 32px;
   margin-left: 308px;
 }
-
 .logos-footer {
   display: inline;
   width: 24.618px;
@@ -349,16 +311,14 @@ footer {
   flex-shrink: 0;
   fill: #272d4e;
 }
-
 .logos-footer a {
   margin-right: 24px;
 }
-
 .logos-footer a:last-child {
   margin-right: 0;
 }
-
 .footer-content > div {
+  position: absolute;
   color: #333;
   font-family: Nunito;
   font-size: 16px;
@@ -370,4 +330,5 @@ footer {
   flex-shrink: 0;
   margin-top: 16px;
   margin-left: 32px;
+  margin-top: 218px;
 }
