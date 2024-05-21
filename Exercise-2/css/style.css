@@ -59,7 +59,7 @@ nav li {
   display: inline;  
   margin-right: 64px;
 }
-#our-books-bold > a {
+#home-bold > a {
   font-weight: 700;
 }
 nav a {
@@ -74,129 +74,191 @@ nav a {
 main {
   overflow: hidden;
 }
-.the-picture > div {
-  margin-left: 32px;
-}
-.the-picture > div > img {
-  border: 4px solid #e6dbfe;
-  margin-right: 32px;
-}
-.the-picture > div > img:last-child {
-  margin-right: 0;
-}
-.the-list {
-  margin-top: 32px;
-  margin-left: 32px;
-}
-.the-list > h2 {
-  color: #612999;
-  font-family: Rubik;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 40px;
-  width: 275px;
-}
-.the-list > ul {
-  list-style-type: none;
-  margin-top: 32px;
-  display: inline-block;
-}
-.the-list > ul > li {
-  width: 82px;
-  height: 82px;
-  flex-shrink: 0;
-  border-radius: 46.5px;
-  background: #612999;
-  backdrop-filter: blur(10px);
-  margin-bottom: 16px;
-  display: flex;
-}
-.the-list > ul > li:last-child {
-  margin-bottom: 0px;
-}
-.the-list > ul > li > img {
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 26px;
-  background: none;
-  width: 29px;
-  height: 42.385px;
-  flex-shrink: 0;
-}
-.the-list > ul > li > span {
-  margin-left: 98px;
-  margin-top: 31px;
+#the-main-img {
+  width: 100vw;
+  display: block;
   position: relative;
+}
+#the-main-img img {
+  width: 100%;
+  height: 797px;
+  object-fit: cover;
+}
+#the-main-img h1 {
+  width: 448px;
+  color: #612999;
+  font-family: Nunito;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  background: none;
+}
+#the-main-img p {
+  width: 448px;
   color: #000;
-  font-family: Rubik;
+  font-family: Nunito;
   font-size: 24px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 14px;
-  white-space: nowrap;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 163px;
+  left: 32px;
+  background: none;
 }
-.contact-us-input {
+#the-about-paragraphs {
   margin-top: 32px;
   margin-left: 32px;
-  margin-bottom: 198px;
 }
-.contact-us-input > h2 {
+#the-about-paragraphs h2 {
+  width: 136.443px;
+  height: 40px;
+  flex-shrink: 0;
   color: #612999;
   font-family: Rubik;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
   line-height: 40px;
-  width: 275px;
 }
-.contact-us-input > .the-input-place
-{
+#the-about-paragraphs p {
+  margin-top: 24px;
   width: 1136px;
-  height: 503px;
+  height: 85px;
   flex-shrink: 0;
-  background: #EFECFF;
-  margin-top: 32px;
+  color: #000;
+  text-align: justify;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%;
 }
-.the-input-place {
-  display: flex;
-  flex-direction: column;
-  gap: 18px; 
-  padding: 0; 
-}
-.the-input-place label {
+#the-pupular-books {
   display: block;
-  font-family: rubik;
-  background: none;
+}
+#the-pupular-books > h2 {
+  margin-top: 39px;
+  margin-left: 32px;
   color: #612999;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.the-cards {
+  margin-left: 32px;
+  margin-top: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.the-cards .card {
+  border-radius: 38px;
+  background: #efecff;
+  box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
+  width: 376px;
+  height: 496px;
+  flex-shrink: 0;
+  margin-right: 32px;
+  margin-bottom: 27px;
+}
+.card img {
+  position: absolute;
+  border-radius: 38px;
+  z-index: 0;
+}
+.card > .elipse-heart {
+  position: absolute;
+  background: url("../images/Ellipse-heart.png");
+  width: 47px;
+  height: 47px;
+  flex-shrink: 0;
+  fill: #07060f;
+  margin-left: 290px;
+  margin-top: 40px;
+  z-index: 1;
+}
+.card > .heart {
+  position: absolute;
+  background: url("../images/heart.png");
+  width: 23px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-left: 302px;
+  margin-top: 54px;
+  z-index: 1;
+}
+.card > .elipse-basket {
+  position: absolute;
+  background: url("../images/Ellipse-basket.png");
+  width: 63px;
+  height: 63px;
+  flex-shrink: 0;
+  margin-left: 262px;
+  margin-top: 406px;
+}
+.card > .basket {
+  position: absolute;
+  background: url("../images/basket.png");
+  width: 31px;
+  height: 31px;
+  flex-shrink: 0;
+  margin-left: 278px;
+  margin-top: 420px;
+}
+.card > h3 {
+  position: absolute;
+  color: #000;
+  text-align: justify;
+  font-family: Abel;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
+  line-height: normal;
+  background: none;
+  margin-top: 297px;
+  margin-left: 32px;
 }
-.the-input-place input, .the-input-place button {
-  padding: 12px; 
-  border: 1px solid #ccc;
-  border-radius: 5px; 
-  font-size: 16px;
+.card > p {
+  position: absolute;
+  color: #333;
+  font-family: Abel;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 315px;
+  height: 96px;
+  flex-shrink: 0;
+  background: none;
+  margin-top: 347px;
+  margin-left: 32px;
 }
-.the-input-place button {
-  background-color: #3498db; 
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-size: 25px; 
-  padding: 15px 30px; 
-  border: none;
-  font-family: 'Rubik'; 
-}
-.the-input-place button:hover {
-  background-color: #2980b9; 
+.card > h4 {
+  position: absolute;
+  color: #612999;
+  text-align: justify;
+  font-family: Abel;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 415px;
+  margin-left: 32px;
+  background: none;
 }
 footer {
   height: 287px;
   width: 100%;
   flex-shrink: 0;
   position: sticky;
+  margin-top: 5px;
   bottom: 0;
   left: 0;
   z-index: 1;
